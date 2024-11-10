@@ -1,0 +1,6 @@
+1 importing GGML model from haggingface, then load it from c transformers
+2 - sentences transformers to embeddings
+3 - vector store
+
+
+conda create --name llm python=3.13
