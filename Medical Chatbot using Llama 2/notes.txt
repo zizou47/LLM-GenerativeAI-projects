@@ -1,6 +1,19 @@
-1 importing GGML model from haggingface, then load it from c transformers
+1 importing GGML model from haggingface, then load it from C-transformers
 2 - sentences transformers to embeddings
 3 - vector store
 
+1- ctransformers is library usefull to run llm model on cpu or ggml format
+2- SentenceTransformers : is pre-trained on large datasets used by models like bert
+    allowing them to generate embeddings that better capture the meaning of a sentence or short text, rather than individual word embeddings.
+3- A vector store is a specialized database designed to store and retrieve high-dimensional vectors.
+ In natural language processing and machine learning,
+ vector stores are crucial for handling embeddings,
+ which are numerical representations of text,
+ images, or other data types. Vector stores enable efficient similarity search,
+ clustering, and other operations on embeddings, 
+making them foundational in applications that use large language models,
+ semantic search, and recommendation systems.
 
-conda create --name llm python=3.13
+ 
+conda create --name llm python=3.12
+chainlit run model.py -w

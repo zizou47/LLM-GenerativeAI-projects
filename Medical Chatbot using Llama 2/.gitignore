@@ -1,2 +1,14 @@
-.env
-env/
+# Ignore the Llama model binary file
+llama-2-7b-chat.ggmlv3.q8_0.bin
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore the Chainlit-specific directories and files
+.chainlit/
+.files
+
+# Ignore Chainlit markdown file
+chainlit.md
+notes.txt
